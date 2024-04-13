@@ -58,7 +58,7 @@ To set up a trigger for automatic updates:
 6. Click "Save."
 
 ## Support
-For any questions or issues, please contact [here](https://github.com/0xrphl/Google-calendar-events-analysis-Google-sheets-Google-App-Scripts-Looker-Studio-/issues/new).
+For any questions or issues, please contact [here](https://github.com/0xrphl/Crypto-portfolio-tracker-Google-Sheets-Coinmarketcap-API-/issues/new).
 
 ## Adding Real-time Crypto Prices
 
