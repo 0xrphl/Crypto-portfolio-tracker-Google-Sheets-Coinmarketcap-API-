@@ -10,10 +10,10 @@ This Google Sheets project allows you to track your cryptocurrency portfolio usi
 2. [Setup](#setup)
 3. [Functionality](#functionality)
 4. [Recommendations](#recommendations)
-5. [Adding Real-time Crypto Prices](#adding-real-time-crypto-prices)
-6. [Direct Questions](#direct-questions)
-7. [Contributing](#contributing)
-8. [License](#license)
+5. [Support](#Support)
+6. [Adding Real-time Crypto Prices](#adding-real-time-crypto-prices)
+7. [Direct Questions](#direct-questions)
+8. [Contributing](#contributing)
 
 ## Setup
 
@@ -56,6 +56,9 @@ To set up a trigger for automatic updates:
 5. Choose `Minutes timer` and set it to `Every 5 minutes`.
 
 6. Click "Save."
+
+## Support
+For any questions or issues, please contact [here](https://github.com/0xrphl/Google-calendar-events-analysis-Google-sheets-Google-App-Scripts-Looker-Studio-/issues/new).
 
 ## Adding Real-time Crypto Prices
 
@@ -128,3 +131,26 @@ function getCryptoValue() {
     Logger.log(value);
   }
 }
+```
+
+# Crypto Value Updater
+
+## Overview
+
+The `getCryptoValue()` function fetches the latest USD price for each cryptocurrency listed in column A of the active sheet and updates the corresponding value in column E. It utilizes the CoinMarketCap API to fetch real-time cryptocurrency data. The API key is provided as a variable `apiKey`. Replace it with your actual API key.
+
+## Usage
+
+1. Ensure you have an API key from CoinMarketCap.
+2. Replace the `apiKey` variable with your actual API key.
+3. Run the `getCryptoValue()` function.
+
+The function loops through each row containing a cryptocurrency name, constructs the API URL for that cryptocurrency, fetches the data, and updates the price in the spreadsheet.
+
+## Logging
+
+Logging is used to debug and log the fetched values. You can view the logs in the Google Apps Script editor under View > Logs.
+
+## Contributing
+
+Feel free to contribute to this project by submitting pull requests or reporting issues.
